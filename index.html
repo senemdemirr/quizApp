@@ -5,26 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div id="container">
-<p>Choose your favorite Web language:</p>
+    <div id="container">
+        <div class="header">
+            <p>Choose your favorite Web language:</p>
 
-<form>
- <input type="radio" id="html" name="fav_language" value="HTML">
- <label for="html">HTML</label><br>
- <input type="radio" id="css" name="fav_language" value="CSS">
- <label for="css">CSS</label><br>
- <input type="radio" id="javascript" name="fav_language" value="JavaScript">
- <label for="javascript">JavaScript</label>
-</form> 
-<div id="buttonlar">
-<button id="geri">Geri</button>
-<button id="ileri">İleri</button>
-</div>
+            <form>
+                <input type="radio" id="a" name="answer" value="HTML">
+                <label for="a">Answer</label><br>
+                <input type="radio" id="b" name="answer" value="CSS">
+                <label for="b">Answer</label><br>
+                <input type="radio" id="c" name="answer" value="JavaScript">
+                <label for="c">Answer</label><br>
+                <input type="radio" id="d" name="answer" value="JavaScript">
+                <label for="d">Answer</label>
+            </form>
 
-</div>
+            <div id="buttons">
+                <button class="button_style"id="prev" onclick="prev()">Prev</button>
+                <button class="button_style" id="next" onclick="next()">Next</button>
+            </div>
+
+        </div>
+    </div>
     
 </body>
 </html>
