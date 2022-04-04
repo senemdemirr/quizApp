@@ -10,17 +10,17 @@
 <body>
     <div id="container">
         <div class="header">
-            <p>Choose your favorite Web language:</p>
+            <p id="question">Ouestion Textt</p>
 
             <form>
-                <input type="radio" id="a" name="answer" value="HTML">
-                <label for="a">Answer</label><br>
-                <input type="radio" id="b" name="answer" value="CSS">
-                <label for="b">Answer</label><br>
-                <input type="radio" id="c" name="answer" value="JavaScript">
-                <label for="c">Answer</label><br>
-                <input type="radio" id="d" name="answer" value="JavaScript">
-                <label for="d">Answer</label>
+                <input type="radio" name="answer" id="a" class="answer" />
+                <label for="a" id="a_text">Answer</label> <br>
+                <input type="radio" name="answer" id="b" class="answer" />
+                <label for="b" id="b_text">Answer</label><br>
+                <input type="radio" name="answer" id="c" class="answer" />
+                <label for="c" id="c_text">Answer</label><br>
+                <input type="radio" name="answer" id="d" class="answer" />
+                <label for="d" id="d_text">Answer</label><br>
             </form>
 
             <div id="buttons">
@@ -31,5 +31,6 @@
         </div>
     </div>
     
+    <script src="app.js"></script>
 </body>
 </html>
